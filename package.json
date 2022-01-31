@@ -1,0 +1,35 @@
+{
+    "name": "homebridge-io-blinds",
+    "version": "1.0.0-alpha.0",
+    "description": "Homebridge plugin to control blinds via physical wall switch and iOS Home app.",
+    "license": "MIT",
+    "keywords": [
+      "homebridge-plugin",
+      "homebridge",
+      "raspberry",
+      "i2c",
+      "mcp23017",
+      "blinds",
+      "window-covering",
+      "window",
+      "roller-shutter",
+      "homekit"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pandaunit/homebridge-io-blinds"
+    },
+    "dependencies": {
+        "node-mcp23017": "^0.0.7",
+        "node-persist": "^2.1.0"
+    },
+    "engines": {
+      "homebridge": ">=1.3.9"
+    },
+    "maintainers": [
+      {
+        "name": "Smart Panda",
+        "email": "r.sporny@gmail.com"
+      }
+    ]
+  }
